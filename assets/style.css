@@ -1,0 +1,38 @@
+
+        body {
+            background-color: #011627;
+            color: #abb2bf;
+            font-family: 'Fira Code', monospace;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .game-container {
+            flex: 1;
+            border: 1px solid #011627;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .image-container {
+            flex: 1;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #1d3b53;
+        }
+
+        img {
+            max-width: 50%;
+            max-height: 50%;
+            width: auto;
+        }
